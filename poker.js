@@ -58,7 +58,7 @@ const data = [
 
 
 x = (data[52][1])
-// console.log(x);
+console.log(x);
 // document.write(Image(x))
 
 
@@ -73,11 +73,16 @@ console.log(comE1);
 const player1 = document.querySelector("#player");
 console.log(player1);
 
+const final = document.querySelector("#text3");
+console.log(final);
+
+const king = document.querySelector("#king");
+console.log(king);
 
 function analytics() {
     const data1 = []
-    let numA = Math.floor((Math.random() * 53) + 1);
-    let numB = Math.floor((Math.random() * 53) + 1);
+    let numA = Math.floor((Math.random() * 53));
+    let numB = Math.floor((Math.random() * 53));
     // console.log(numA, numB);
     if (numA != numB) {
         data1.push(numA)
@@ -91,6 +96,21 @@ function analytics() {
         let ply = (data[data1[1]][1]);
         console.log(ply);
         player1.src = `${ply}`
+
+        if (data1[0] > data1[1]) {
+            final.innerText = ('您跑錯棚了?!')
+            final.style.color = 'green';
+        }
+        else {
+            final.innerText = ('賭聖');
+            final.style.color = 'blue';
+            let kingpic = ['./ king.jpg']
+            king.src = `${kingpic[0]}`
+        }
+
+
+
+
     }
 
 }

@@ -1,9 +1,12 @@
 .flex {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
 
 }
+
+
+
 
 .box {
     text-align: center;
@@ -19,6 +22,7 @@
     text-align: center;
     width: 80%;
     margin: 0 auto;
+    background-color: antiquewhite;
 }
 
 
@@ -26,27 +30,56 @@
 input {
     background-color: cadetblue;
     color: white;
-
+    border: none;
     padding: 12px;
     text-align: center;
     font-size: 24px;
     border-radius: 6px;
     max-width: 100%;
+    margin-top: 24px;
+    transition: 1s;
 }
 
 
-#text1 {
-    background-color: yellow;
-    display: inline-block;
-    padding: 12px;
-    font-size: 30px;
+
+
+
+
+
+#text3 {
+
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 40px;
     margin: 1rem auto;
+    width: 80%;
+
 }
 
 
-#text2 {
+
+
+
+.p1 {
+    font-size: x-large;
+    font-family: 標楷體;
+    color: red;
+}
+
+.p2 {
+    font-size: x-large;
+    font-family: 標楷體;
+    color: blue;
+}
+
+.vs {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
     font-size: 30px;
-    margin: 12px auto;
-    width: 80%;
+    padding: 0px 10px;
+
 
 }
