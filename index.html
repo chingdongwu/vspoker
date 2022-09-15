@@ -9,35 +9,37 @@
     <link rel="stylesheet" href="./css.css">
 </head>
 
-<body id="container">
+<body>
     <!-- <img class="pic" src="./OffV0pvcUYrOpds6ZPWTejl1diUoc-mzKy7PvCsuz7w.jfif" alt=""> -->
-    <h1>撲克牌比大小</h1>
-    <div class="flex">
+    <div id="container">
+        <h1>撲克牌比大小</h1>
+        <div class="flex">
+
+            <div>
+                <p class="p1">電腦手牌</p>
+                <img src="./54224205.jpg" alt="Gg" class="box" id="com1">
+
+            </div>
+            <p class="vs">VS</p>
+            <div>
+                <p class="p2">玩家手牌</p>
+                <img src="./54224204.jpg" alt="Gg" class="box" id="player">
+
+            </div>
+        </div>
 
         <div>
-            <p class="p1">電腦手牌</p>
-            <img src="./54224205.jpg" alt="Gg" class="box" id="com1">
-
+            <input type="button" value="亮牌" id="analytics" onclick="analytics()">
         </div>
-        <p class="vs">VS</p>
-        <div>
-            <p class="p2">玩家手牌</p>
-            <img src="./54224204.jpg" alt="Gg" class="box" id="player">
 
-        </div>
+        <div id="text3">難道你就是......</div>
+        <img src="./下載.jfif" alt="Gg" class="box" id="king">
+
+        <hr>
+
+        <script src="./poker.js"></script>
+        <footer>&copy;created by Wu v1.0</footer>
     </div>
-
-    <div>
-        <input type="button" value="亮牌" id="analytics" onclick="analytics()">
-    </div>
-
-    <div id="text3">難道你就是......</div>
-    <img src="./下載.jfif" alt="Gg" class="box" id="king">
-
-    <hr>
-
-    <script src="./poker.js"></script>
-    <footer>&copy;created by Wu v1.0</footer>
 </body>
 
 

@@ -5,24 +5,20 @@
 
 }
 
-
-
-
 .box {
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
     height: auto;
     max-width: 100%;
 
 }
 
 
-
 #container {
     text-align: center;
-    width: 80%;
-    margin: 0 auto;
-    background-color: antiquewhite;
+    width: 90%;
+    background-color: bisque;
+    margin: 12px auto;
 }
 
 
@@ -39,10 +35,6 @@ input {
     margin-top: 24px;
     transition: 1s;
 }
-
-
-
-
 
 
 
@@ -80,6 +72,17 @@ input {
     margin-top: 100px;
     font-size: 30px;
     padding: 0px 10px;
+    width: auto;
+
+
+}
+
+
+@media (max-width:400px) {
+    #container {
+
+        width: 80%;
+    }
 
 
 }
