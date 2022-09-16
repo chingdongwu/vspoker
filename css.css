@@ -10,6 +10,9 @@
     margin: 0 auto;
     height: auto;
     max-width: 100%;
+    /* transform: rotateY(150deg);
+    transform: rotateX(-1deg); */
+    /* backface-visibility: hidden; */
 
 }
 
@@ -17,8 +20,9 @@
 #container {
     text-align: center;
     width: 90%;
-    background-color: bisque;
+    background-image: radial-gradient(circle 321px at 8.3% 75.7%, rgba(209, 247, 241, 1) 0%, rgba(249, 213, 213, 1) 81%);
     margin: 12px auto;
+
 }
 
 

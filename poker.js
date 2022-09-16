@@ -65,21 +65,27 @@ console.log(x);
 // document.write(`'<img src="${x}"'`);
 
 const elementE1 = document.querySelector("#analytics");
-console.log(elementE1);
+// console.log(elementE1);
 
 const comE1 = document.querySelector("#com1");
-console.log(comE1);
+// console.log(comE1);
 
 const player1 = document.querySelector("#player");
-console.log(player1);
+// console.log(player1);
 
 const final = document.querySelector("#text3");
-console.log(final);
+// console.log(final);
 
 const king = document.querySelector("#king");
-console.log(king);
+// console.log(king);
 
 function analytics() {
+
+
+
+
+
+
     const data1 = []
     let numA = Math.floor((Math.random() * 53));
     let numB = Math.floor((Math.random() * 53));
@@ -91,10 +97,10 @@ function analytics() {
     if (data1.length == 2) {
         console.log(numA, numB, data1);
         let pic = (data[data1[0]][1]);
-        console.log(pic);
+        // console.log(pic);
         comE1.src = `${pic}`;
         let ply = (data[data1[1]][1]);
-        console.log(ply);
+        // console.log(ply);
         player1.src = `${ply}`
 
         if (data1[0] > data1[1]) {
@@ -118,3 +124,32 @@ function analytics() {
 }
 
 
+// i = 0;
+// HtmlStr = new Array();
+// HtmlStr[0] = '<img src="./愛心/1.PNG">;1000';
+// HtmlStr[1] = '<img src="./愛心/2.PNG">;1000';
+// HtmlStr[2] = '<img src="./愛心/3.PNG">;1000';
+// HtmlStr[3] = '<embed src="./愛心/4.PNG">;1000';
+
+// Max = HtmlStr.length - 1;
+
+// function star(Str) {
+//     console.log(Str);
+//     dp.innerHTML = Str;
+//     if (i < Max)
+//         i++;
+//     else
+//         i = 0;
+//     ToStop();
+// }
+
+// function ToPlay() {
+//     StrTmpe = HtmlStr[i].split(";");
+//     timeout = setTimeout("star(StrTmpe[0])", StrTmpe[1])
+// }
+
+// function ToStop() {
+//     clearTimeout(timeout);
+//     ToPlay();
+// }
+// ToPlay();
