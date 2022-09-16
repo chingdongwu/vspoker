@@ -105,12 +105,12 @@ function analytics() {
 
         if (data1[0] > data1[1]) {
             final.innerText = ('您跑錯棚了?!')
-            final.style.color = 'green';
+            final.style.color = 'teal';
             let qqpic = ["qq.jfif"];
             king.src = `${qqpic[0]}`
         }
         else {
-            final.innerText = ('賭聖');
+            final.innerText = ('賭聖!');
             final.style.color = 'blue';
             let kingpic = ["king.jpg"];
             king.src = `${kingpic[0]}`
